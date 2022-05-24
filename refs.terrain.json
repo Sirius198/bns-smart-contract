@@ -1,0 +1,10 @@
+{
+  "testnet": {
+    "terra-peep721": {
+      "codeId": "70089",
+      "contractAddresses": {
+        "default": "terra1n3qtk3yvfncu7ptcc7mez446gcrdwucg62jlmg"
+      }
+    }
+  }
+}

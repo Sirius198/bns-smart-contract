@@ -1,0 +1,50 @@
+{
+  "_global": {
+    "_base": {
+      "store": {
+        "fee": {
+          "gasLimit": 2000000,
+          "amount": {
+            "uluna": 1000000
+          }
+        }
+      },
+      "instantiation": {
+        "fee": {
+          "gasLimit": 2000000,
+          "amount": {
+            "uluna": 1000000
+          }
+        },
+        "instantiateMsg": {
+          "name": "Bake n stake",
+          "symbol": "BNS",
+          "minter": "terra1jmjlmavfl9mzcwkrmnef6w7kx6plsha45ws6y0",
+          "public_key": "AlRu+P0GWx+4eYLCOzNk45QiDjheKvHJUTDHT5dFtHUc",
+          "mint_amount": 0,
+          "change_amount": 0,
+          "change_multiplier": 0,
+          "max_issuance": 1000000
+        }
+      }
+    }
+  },
+  "mainnet": {
+    "_connection": {
+      "chainID": "columbus-5",
+      "URL": "https://lcd.terra.dev"
+    }
+  },
+  "testnet": {
+    "_connection": {
+      "chainID": "bombay-12",
+      "URL": "https://bombay-lcd.terra.dev"
+    }
+  },
+  "localterra": {
+    "_connection": {
+      "chainID": "localterra",
+      "URL": "http://localhost:3060"
+    }
+  }
+}

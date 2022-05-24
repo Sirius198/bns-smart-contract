@@ -1,0 +1,10 @@
+{
+  "name": "TerraPeeps Example NFT",
+  "symbol": "PEEPS-GH",
+  "minter":  "##SENDER##",
+  "public_key": "AiMzHaA2bvnDXfHzkjMM+vkSE/p0ymBtAFKUnUtQAeXe",
+  "change_amount": 1000000,
+  "change_multiplier": 2,
+  "max_issuance": 1000,
+  "mint_amount": 3000000
+}
